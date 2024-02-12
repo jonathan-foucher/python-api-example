@@ -1,0 +1,34 @@
+[
+  {
+    "model": "player.player",
+    "fields": {
+      "id": 1,
+      "firstname": "John",
+      "lastname": "Wick"
+    }
+  },
+  {
+    "model": "player.player",
+    "fields": {
+      "id": 2,
+      "firstname": "John",
+      "lastname": "Hammond"
+    }
+  },
+  {
+    "model": "player.player",
+    "fields": {
+      "id": 3,
+      "firstname": "John",
+      "lastname": "Marston"
+    }
+  },
+  {
+    "model": "player.player",
+    "fields": {
+      "id": 4,
+      "firstname": "John",
+      "lastname": "Doe"
+    }
+  }
+]
