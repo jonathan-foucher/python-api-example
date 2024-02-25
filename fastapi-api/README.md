@@ -91,7 +91,7 @@ curl --location 'http://localhost:8081/players/9/scores' \
 curl --location --request PATCH 'http://localhost:8081/scores/19?score_value=4832'
 ```
 
-### PATCH endpoint to update a score (id=19)
+### DELETE endpoint to delete a score (id=19)
 ```
 curl --location --request DELETE 'http://localhost:8081/scores/19'
 ```

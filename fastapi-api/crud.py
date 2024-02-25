@@ -50,9 +50,9 @@ def update_score(db: Session, db_score: schemas.ScoreCreate, score_value: int):
     return db_score
 
 
-def delete_score(db: Session, db_score: schemas.ScoreCreate):
+def delete_score(db: Session, db_score: schemas.Score):
     db.delete(db_score)
-
+    db.commit()
 
 def get_game_titles(db: Session):
     return [r.game_title for r in db.query(models.Score.game_title).distinct().all()]
